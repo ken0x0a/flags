@@ -1,0 +1,7 @@
+singleQuote: true
+trailingComma: all
+bracketSpacing: true
+arrowParens: always
+jsxBracketSameLine: false
+semi: false
+parser: typescript
