@@ -42,7 +42,7 @@ const density =
     return value > currentValue ? value : currentValue
   }, 0)
 
-function mkdirIfNotExist(dir) {
+function mkdirIfNotExist(dir: string) {
   mkdir(dir, (err) => {
     if (err) console.log(err)
     else console.log('mkdir ', dir)

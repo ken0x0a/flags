@@ -5,7 +5,8 @@
     "lib": [
       "esnext"
     ],
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "noImplicitAny": true
   },
   "exclude": [
     "node_modules"
